@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BottomNav"
+    android:layout_gravity="bottom">
+
+    <Button
+        android:id="@+id/exit"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="@string/sortir"
+        android:backgroundTint="@color/trans"
+        android:textColor="#0323F0"
+        android:textSize="20sp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/pokes"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/trans"
+        android:text="@string/pokemons"
+        android:textColor="#0323F0"
+        android:textSize="20sp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/help"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/trans"
+        android:text="@string/ajuda"
+        android:textColor="#0323F0"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
