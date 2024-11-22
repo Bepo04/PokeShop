@@ -6,9 +6,9 @@
     </style>
     <style name="Theme.MyApp" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Personaliza los colores principales -->
-        <item name="colorPrimary">@color/your_primary_color</item>
-        <item name="colorOnPrimary">@color/your_on_primary_color</item>
-        <item name="colorSecondary">@color/your_secondary_color</item>
-        <item name="colorOnSecondary">@color/your_on_secondary_color</item>
+        <item name="colorPrimary">@color/primary_night</item>
+        <item name="colorOnPrimary">@color/OnPrimary_night</item>
+        <item name="colorSecondary">@color/secondary_night</item>
+        <item name="colorOnSecondary">@color/OnSecondary_night</item>
     </style>
 </resources>
