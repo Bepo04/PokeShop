@@ -7,7 +7,7 @@
     <!--Tema principal-->
     <color name="primary_day">#6700AF</color>
     <color name="OnPrimary_day">#FFFFFF</color>
-    <color name="secondary_day">#DAC8FF</color>
+    <color name="secondary_day">#E9DDFF</color>
     <color name="OnSecondary_day">#52007E</color>
 
     <!--Tema nit-->

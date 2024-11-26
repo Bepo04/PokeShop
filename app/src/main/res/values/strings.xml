@@ -8,4 +8,6 @@
     <string name="login">Login</string>
     <string name="cart">Carreto</string>
     <string name="inici">Inici</string>
+    <string name="compra">Compra</string>
+    <string name="product_description">%1$s\n%2$s\n%3$s\n%4$s</string>
 </resources>
