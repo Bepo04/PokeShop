@@ -10,4 +10,21 @@
     <string name="inici">Inici</string>
     <string name="compra">Compra</string>
     <string name="product_description">%1$s\n%2$s\n%3$s\n%4$s</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="value_mail_ex">value@mail.ex</string>
+    <string name="value">Value</string>
+    <string name="no_tens_compte">No tens compte?</string>
+    <string name="xxxxxxxxxxxxxx">XXXXXXXXXXXXXX</string>
 </resources>
