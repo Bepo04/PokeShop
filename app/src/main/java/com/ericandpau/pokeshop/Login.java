@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Login extends AppCompatActivity {
 
     private Button button;
+    private Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         button = findViewById(R.id.callback);
+        button2 = findViewById(R.id.registre);
+
         EditText mail = findViewById(R.id.editTextTextEmailAddress);
         EditText password = findViewById(R.id.editTextTextPassword);
 
@@ -37,6 +40,14 @@ public class Login extends AppCompatActivity {
                     startActivity(intent);
                 }
 
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Login.this, Register.class);
+                startActivity(intent);
             }
         });
 
