@@ -17,6 +17,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <TextView
+        android:id="@+id/textDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/destacat"
+        app:layout_constraintTop_toBottomOf="@+id/NavBar"
+        app:layout_constraintStart_toStartOf="@+id/product1"
+        android:layout_marginTop="15dp"
+        android:textSize="15pt"
+        android:textColor="@color/primary_day"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+    <fragment
+        android:name="com.ericandpau.pokeshop.producte"
+        android:id="@+id/product1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_producte"
+        app:layout_constraintTop_toBottomOf="@+id/textDest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/product1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/pokemon_3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    </androidx.cardview.widget.CardView>
     <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
