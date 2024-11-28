@@ -11,8 +11,11 @@
         android:name="com.ericandpau.pokeshop.NavBar"
         android:id="@+id/NavBar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </fragment>
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_nav_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <fragment
         android:layout_width="match_parent"

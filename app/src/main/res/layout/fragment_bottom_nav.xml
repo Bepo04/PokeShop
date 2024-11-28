@@ -13,18 +13,18 @@
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="100dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/secondary_day"
         android:text="@string/sortir"
-        android:backgroundTint="@color/trans"
         android:textColor="@color/OnSecondary_day"
-        android:textSize="20sp"
-        android:layout_weight="1" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/pokes"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:backgroundTint="@color/trans"
+        android:backgroundTint="@color/secondary_day"
         android:text="@string/pokemons"
         android:textColor="@color/OnSecondary_day"
         android:textSize="20sp"
@@ -35,7 +35,7 @@
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:backgroundTint="@color/trans"
+        android:backgroundTint="@color/secondary_day"
         android:text="@string/ajuda"
         android:textColor="@color/OnSecondary_day"
         android:textSize="20sp"

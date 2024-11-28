@@ -39,11 +39,30 @@ public class BottomNav extends Fragment {
             @Override
             public void onClick(View view) {
                 if (getActivity() != null) {
-                    getActivity().finish();
+                    getActivity().finishAffinity();
                 }
             }
         });
 
-        return inflater.inflate(R.layout.fragment_bottom_nav, container, false);
+        pokes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (getActivity() != null) {
+                    Intent intent = new Intent(getActivity(), ProductsActivity.class);
+                    startActivity(intent);
+                }
+            }
+        });
+
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (getActivity() != null) {
+                    Intent intent = new Intent(getActivity(), HelpActivity.class);
+                    startActivity(intent);
+                }
+            }
+        });
+        return view;
     }
 }
