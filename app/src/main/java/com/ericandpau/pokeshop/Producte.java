@@ -8,9 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class producte extends Fragment {
+public class Producte extends Fragment {
 
-    public producte() {
+    public Producte() {
         // Required empty public constructor
     }
 

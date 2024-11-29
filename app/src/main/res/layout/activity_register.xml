@@ -47,6 +47,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:layout_margin="5dp"
             android:hint="@string/nom" />
 
         <!-- Cognom -->
@@ -63,6 +64,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:layout_margin="5dp"
             android:hint="@string/cognom" />
 
         <!-- Email -->
@@ -79,6 +81,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/exemple_email"
             android:ems="10"
+            android:layout_margin="5dp"
             android:inputType="textEmailAddress" />
 
         <!-- Telèfon -->
@@ -94,6 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_margin="5dp"
             android:inputType="phone"
             android:hint="@string/telefon" />
 
@@ -110,6 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:layout_margin="5dp"
             android:inputType="textPostalAddress"
             android:hint="@string/adreca" />
 
