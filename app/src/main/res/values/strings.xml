@@ -37,4 +37,6 @@
     <string name="descCardNovetat">
         Presentem nous Pokemons per a la nostra col·lecció Descobreix-los!
     </string>
+    <string name="faqsTitle">FAQS</string>
+    <string name="loremFaqsAnswer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare ac augue et imperdiet. Donec feugiat neque ultrices libero tincidunt volutpat.</string>
 </resources>

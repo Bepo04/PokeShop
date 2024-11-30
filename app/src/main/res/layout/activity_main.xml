@@ -21,7 +21,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/searchCard"
         android:layout_width="370dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:backgroundTint="#F7E7FF"
         app:layout_constraintTop_toBottomOf="@id/NavBar"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,12 +36,13 @@
 
             <EditText
                 android:layout_width="300dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/searchText"
                 app:layout_constraintEnd_toStartOf="@+id/searchIcon"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Buscar"/>
 
             <ImageView
                 android:id="@+id/searchIcon"
