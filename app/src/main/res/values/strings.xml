@@ -7,7 +7,6 @@
     <string name="adreca">Adreça</string>
     <string name="registrar">Registrar</string>
     <string name="app_name">PokeShop</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sortir">Sortir</string>
     <string name="ajuda">Ajuda</string>
@@ -35,5 +34,7 @@
     <string name="xxxxxxxxxxxxxx">XXXXXXXXXXXXXX</string>
     <string name="registre">Registre</string>
     <string name="destacat">DESTACAT!</string>
-    <string name="descCardNovetat">Presentem nous Pokemons per a la nostra col·lecció, a què esperes per a fer-te amb un d\'ells?</string>
+    <string name="descCardNovetat">
+        Presentem nous Pokemons per a la nostra col·lecció Descobreix-los!
+    </string>
 </resources>

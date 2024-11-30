@@ -38,7 +38,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/inici" />
+                android:text="@string/inici"
+                android:backgroundTint="@color/primary_day"/>
 
         </LinearLayout>
 
@@ -54,7 +55,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/login" />
+                android:text="@string/login"
+                android:backgroundTint="@color/primary_day"/>
 
             <Button
                 android:id="@+id/cart"
@@ -62,7 +64,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
-                android:text="@string/cart" />
+                android:text="@string/cart"
+                android:backgroundTint="@color/primary_day"/>
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

@@ -14,31 +14,45 @@
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_nav_bar"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/searchCard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/searchCard"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E6CAFF"
+        android:backgroundTint="#F7E7FF"
         app:layout_constraintTop_toBottomOf="@id/NavBar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/product1"
+        app:cardCornerRadius="50dp">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <EditText
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"/>
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchText"
+                app:layout_constraintEnd_toStartOf="@+id/searchIcon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
 
             <ImageView
+                android:id="@+id/searchIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/headline"/>
-        </LinearLayout>
+                android:src="@drawable/search"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/searchText"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -48,17 +62,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_producte"
-        app:layout_constraintTop_toBottomOf="@+id/NavBar"
+        app:layout_constraintTop_toBottomOf="@+id/searchCard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/newsCard"
         android:layout_marginTop="15dp" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/newsCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/product1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
         android:layout_margin="25dp"
         android:backgroundTint="@color/secondary_day"
         app:cardCornerRadius="20dp">
@@ -67,15 +84,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/fotoCard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:src="@drawable/pokemon_3"
-                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/titolCard"
+                android:backgroundTint="#C4D8FF"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/pokemon_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/titolCard"
@@ -110,6 +139,7 @@
     </androidx.cardview.widget.CardView>
 
     <fragment
+        android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:name="com.ericandpau.pokeshop.BottomNav"
@@ -118,6 +148,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
