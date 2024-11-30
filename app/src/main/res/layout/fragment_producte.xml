@@ -5,38 +5,52 @@
     android:layout_height="170dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="25dp"
-    tools:context=".producte"
-    android:background="@color/secondary_day">
+    tools:context=".producte">
 
-    <ImageView
-        android:id="@+id/foto"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:src="@drawable/pikachu"
-        android:background="@color/OnSecondary_night"/>
-    <TextView
-        android:id="@+id/textPokemon"
-        android:layout_width="115dp"
-        android:layout_height="130dp"
-        app:layout_constraintTop_toTopOf="@+id/foto"
-        app:layout_constraintStart_toEndOf="@+id/foto"
-        app:layout_constraintBottom_toBottomOf="@+id/foto"
-        android:textAppearance="?attr/textAppearanceBodySmall"
-        android:text="@string/product_description"
-        android:padding="10dp"/>
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        app:layout_constraintStart_toEndOf="@+id/textPokemon"
-        app:layout_constraintBottom_toBottomOf="@+id/textPokemon"
-        android:backgroundTint="@color/primary_day"
-        android:textColor="@color/secondary_day"
-        android:text="@string/compra"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/secondary_day"
+        app:cardCornerRadius="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:src="@drawable/pikachu"
+                android:background="@color/OnSecondary_night"/>
+            <TextView
+                android:id="@+id/textPokemon"
+                android:layout_width="115dp"
+                android:layout_height="130dp"
+                app:layout_constraintTop_toTopOf="@+id/foto"
+                app:layout_constraintStart_toEndOf="@+id/foto"
+                app:layout_constraintBottom_toBottomOf="@+id/foto"
+                android:textAppearance="?attr/textAppearanceBodySmall"
+                android:text="@string/product_description"
+                android:padding="10dp"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toEndOf="@+id/textPokemon"
+                app:layout_constraintBottom_toBottomOf="@+id/textPokemon"
+                android:backgroundTint="@color/primary_day"
+                android:textColor="@color/secondary_day"
+                android:text="@string/compra"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
