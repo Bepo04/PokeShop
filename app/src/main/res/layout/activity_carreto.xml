@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CarretoActivity">
+    tools:context=".CarretoActivity"
+    android:background="@drawable/background">
 
     <fragment
         android:name="com.ericandpau.pokeshop.NavBar"
