@@ -48,7 +48,7 @@ public class Menu extends AppCompatActivity {
         cart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Menu.this, MainActivity.class);
+                Intent intent = new Intent(Menu.this, CarretoActivity.class);
                 startActivity(intent);
             }
         });
