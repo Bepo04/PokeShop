@@ -137,13 +137,11 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-<<<<<<< HEAD
-=======
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
->>>>>>> e824d1d (Added movidas)
     </androidx.cardview.widget.CardView>
 
     <fragment

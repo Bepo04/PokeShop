@@ -117,7 +117,6 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_gravity="center">
-
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -127,9 +126,10 @@
                     <EditText
                         android:layout_width="220dp"
                         android:layout_height="50dp"
-                        android:text="En que et puc ajudar?"
-
+                        android:text="En que et puc ajudar?"/>
                 </LinearLayout>
+
+
             </androidx.cardview.widget.CardView>
         </FrameLayout>
 

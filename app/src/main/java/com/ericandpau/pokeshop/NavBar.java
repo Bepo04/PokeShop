@@ -14,6 +14,7 @@ public class NavBar extends Fragment {
 
     Button loginButton;
     Button mainButton;
+    ImageButton menuButton;
 
     public NavBar() {}
 
@@ -30,6 +31,15 @@ public class NavBar extends Fragment {
 
         loginButton = view.findViewById(R.id.login);
         mainButton = view.findViewById(R.id.inici);
+        menuButton = view.findViewById(R.id.hamburgesa);
+
+        menuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Menu.class);
+                startActivity(intent);
+            }
+        });
 
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
