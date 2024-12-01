@@ -15,4 +15,6 @@
     <color name="OnPrimary_night">#52007E</color>
     <color name="secondary_night">#6700AF</color>
     <color name="OnSecondary_night">#DAC8FF</color>
+
+    <color name="chatbot">#116073</color>
 </resources>

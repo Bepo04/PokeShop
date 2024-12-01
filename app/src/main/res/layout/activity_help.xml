@@ -26,7 +26,8 @@
         app:layout_constraintBottom_toTopOf="@+id/chatCard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         app:cardCornerRadius="25dp">
 
         <LinearLayout
@@ -97,41 +98,55 @@
         android:layout_margin="25dp"
         app:cardCornerRadius="25dp">
 
-        <FrameLayout
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_gravity="center">
 
-            <androidx.cardview.widget.CardView
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHATBOT"
+                android:textStyle="bold"
+                android:textColor="@color/chatbot"/>
+
+            <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:backgroundTint="@color/trans"
-                app:cardCornerRadius="20dp"
-                android:layout_marginTop="30dp"
+                android:background="@drawable/chatbot_border"
                 android:layout_marginBottom="30dp"
-                android:background="@drawable/chatbot_border">
+                android:padding="8dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_gravity="center">
-                    <ImageView
-                        android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/secondary_day"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/search"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
 
-                    <EditText
-                        android:layout_width="220dp"
-                        android:layout_height="50dp"
-                        android:text="En que et puc ajudar?"/>
-                </LinearLayout>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/search" />
 
-
-            </androidx.cardview.widget.CardView>
-        </FrameLayout>
+                        <EditText
+                            android:layout_width="220dp"
+                            android:layout_height="50dp"
+                            android:text="En que et puc ajudar?" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
