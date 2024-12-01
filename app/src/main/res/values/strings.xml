@@ -41,4 +41,5 @@
     <string name="loremFaqsAnswer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare ac augue et imperdiet. Donec feugiat neque ultrices libero tincidunt volutpat.</string>
     <string name="carretoTitle">Carreto</string>
     <string name="ferComanda">Realitzar Comanda</string>
+    <string name="chatbot">CHATBOT</string>
 </resources>

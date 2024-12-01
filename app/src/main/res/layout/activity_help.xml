@@ -105,12 +105,13 @@
             android:orientation="vertical"
             android:layout_gravity="center">
 
-            <EditText
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CHATBOT"
+                android:text="@string/chatbot"
                 android:textStyle="bold"
-                android:textColor="@color/chatbot"/>
+                android:textColor="@color/chatbot"
+                android:textSize="8pt"/>
 
             <FrameLayout
                 android:layout_width="wrap_content"
