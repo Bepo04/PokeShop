@@ -17,4 +17,5 @@
     <color name="OnSecondary_night">#DAC8FF</color>
 
     <color name="chatbot">#116073</color>
+    <color name="search_bar">#F7E7FF</color>
 </resources>

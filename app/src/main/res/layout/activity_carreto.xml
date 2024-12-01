@@ -21,8 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Title"
-        android:text="Carreto"
-        android:textSize="28dp"
+        android:text="@string/carretoTitle"
+        android:textSize="14pt"
         android:padding="16dp"
         android:textAlignment="center"
         android:textStyle="bold"
@@ -56,11 +56,11 @@
         android:id="@+id/comanda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Realitzar Comanda"
+        android:text="@string/ferComanda"
         app:layout_constraintTop_toBottomOf="@+id/product2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        android:backgroundTint="@color/primary_day"/>
 
     <fragment
         android:id="@+id/bottom_nav"

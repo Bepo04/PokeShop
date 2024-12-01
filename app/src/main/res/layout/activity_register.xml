@@ -127,7 +127,8 @@
             android:padding="10dp"
             android:textSize="20sp"
             android:text="@string/registrar"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:backgroundTint="@color/primary_day"/>
     </LinearLayout>
 
 
