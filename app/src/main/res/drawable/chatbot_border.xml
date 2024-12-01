@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Fondo transparente o del color deseado -->
     <solid android:color="@android:color/transparent" />
-
-    <!-- Borde de la CardView -->
     <stroke
         android:width="2.5dp"
-        android:color="@color/chatbot" /> <!-- Cambia el color del borde -->
-
-    <!-- Radio de las esquinas, igual al de la CardView -->
+        android:color="@color/chatbot"/>
     <corners android:radius="30dp" />
 </shape>

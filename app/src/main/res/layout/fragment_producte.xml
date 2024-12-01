@@ -27,7 +27,7 @@
                 android:layout_margin="15dp"
                 android:padding="10dp"
                 android:src="@drawable/pikachu"
-                android:background="@color/OnSecondary_night"/>
+                android:background="@drawable/img_background"/>
             <TextView
                 android:id="@+id/textPokemon"
                 android:layout_width="115dp"
