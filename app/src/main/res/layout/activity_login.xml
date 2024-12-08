@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@drawable/background_clear">
 
     <fragment
         android:name="com.ericandpau.pokeshop.NavBar"
@@ -73,7 +74,8 @@
             android:layout_margin="20dp"
             android:padding="10dp"
             android:textSize="20sp"
-            android:text="@string/iniciar" />   
+            android:text="@string/iniciar"
+            android:backgroundTint="@color/primary_day"/>
 
         <Button
             android:id="@+id/registre"
@@ -82,7 +84,8 @@
             android:layout_margin="20dp"
             android:padding="10dp"
             android:textSize="20sp"
-            android:text="@string/no_tens_compte" />
+            android:text="@string/no_tens_compte"
+            android:backgroundTint="@color/primary_day"/>
 
     </LinearLayout>
 
