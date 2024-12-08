@@ -3,8 +3,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="trans">#00FFFFFF</color>
-
+    <color name="chatbot">#116073</color>
+    <color name="search_bar">#F7E7FF</color>
+    <color name="main_background">#B796E9</color>
     <!--Tema principal-->
+
     <color name="primary_day">#6700AF</color>
     <color name="OnPrimary_day">#FFFFFF</color>
     <color name="secondary_day">#E9DDFF</color>
@@ -16,7 +19,9 @@
     <color name="secondary_night">#6700AF</color>
     <color name="OnSecondary_night">#DAC8FF</color>
 
-    <color name="chatbot">#116073</color>
-    <color name="search_bar">#F7E7FF</color>
-    <color name="main_background">#B796E9</color>
+    <!-- Themes -->
+    <color name="primary">#6700AF</color>
+    <color name="OnPrimary">#FFFFFF</color>
+    <color name="secondary">#E9DDFF</color>
+    <color name="OnSecondary">#52007E</color>
 </resources>
