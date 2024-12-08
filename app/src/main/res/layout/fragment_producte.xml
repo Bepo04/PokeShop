@@ -47,7 +47,7 @@
                 android:backgroundTint="@color/primary_day"
                 android:textColor="@color/secondary_day"
                 android:text="@string/compra"
-                android:layout_marginEnd="5dp"/>
+                android:layout_marginEnd="15dp"/>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
