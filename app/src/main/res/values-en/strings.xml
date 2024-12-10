@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nom">Name</string>
+    <string name="cognom">Surname</string>
+    <string name="email">Email</string>
+    <string name="exemple_email">example@correu.com</string>
+    <string name="telefon">Phone number</string>
+    <string name="adreca">address</string>
+    <string name="registrar">Register</string>
+    <string name="app_name">PokeShop</string>
+    <string name="sortir">Exit</string>
+    <string name="ajuda">Help</string>
+    <string name="pokemons">Pokemons</string>
+    <string name="login">Login</string>
+    <string name="cart">Cart</string>
+    <string name="inici">Home</string>
+    <string name="compra">Buy</string>
+    <string name="product_description">%1$s\n%2$s\n%3$s\n%4$s</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not valid Username</string>
+    <string name="invalid_password">Password must be bigger than 5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Login">Login</string>
+    <string name="password">Password</string>
+    <string name="iniciar">Start</string>
+    <string name="value_mail_ex">value@mail.ex</string>
+    <string name="value">Value</string>
+    <string name="no_tens_compte">Don\'t have an account yet?</string>
+    <string name="xxxxxxxxxxxxxx">XXXXXXXXXXXXXX</string>
+    <string name="registre">Register</string>
+    <string name="destacat">FEATURED!</string>
+    <string name="descCardNovetat">
+         New Pokemons are coming! Discover them!
+    </string>
+    <string name="faqsTitle">FAQS</string>
+    <string name="loremFaqsAnswer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare ac augue et imperdiet. Donec feugiat neque ultrices libero tincidunt volutpat.</string>
+    <string name="carretoTitle">Cart</string>
+    <string name="ferComanda">Purchase</string>
+    <string name="chatbot">CHATBOT</string>
+    <string name="comanda_realitzada">Purchassed !!!</string>
+    <string name="gracies_per_la_teva_compra">¡Thanks for Buying!</string>
+    <string name="tornar_inici">Return home</string>
+</resources>
