@@ -44,4 +44,11 @@
     <string name="comanda_realitzada">Comanda Realitzada !!!</string>
     <string name="gracies_per_la_teva_compra">¡Gracies per la teva compra!</string>
     <string name="tornar_inici">Tornar a inici</string>
+    <string name="explora">Explora</string>
+    <string name="novetats">NOVETATS!</string>
+    <string name="navegacio">Navegació</string>
+    <string name="faq1">Com m\'arribaran els Pokemons a casa?</string>
+    <string name="faq2">Com puc pagar?</string>
+    <string name="faq3">Puc fer devolucions?</string>
+    <string name="chatBotPlaceHolder">En que et puc ajudar?</string>
 </resources>

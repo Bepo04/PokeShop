@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="60dp"
-            android:text="Navegació"
+            android:text="@string/navegacio"
             android:textSize="40dp"
             android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
                 android:layout_weight="1"
                 android:textSize="20sp"
                 android:layout_marginLeft="5dp"
-                android:text="Cart" />
+                android:text="@string/cart" />
         </LinearLayout>
 
         <LinearLayout
@@ -123,7 +123,7 @@
                 android:layout_weight="1"
                 android:textSize="20sp"
                 android:layout_marginLeft="5dp"
-                android:text="Login" />
+                android:text="@string/login" />
         </LinearLayout>
 
         <LinearLayout

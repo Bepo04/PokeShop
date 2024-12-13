@@ -3,7 +3,7 @@
     <string name="nom">Name</string>
     <string name="cognom">Surname</string>
     <string name="email">Email</string>
-    <string name="exemple_email">example@correu.com</string>
+    <string name="exemple_email">example@mail.com</string>
     <string name="telefon">Phone number</string>
     <string name="adreca">address</string>
     <string name="registrar">Register</string>
@@ -42,7 +42,14 @@
     <string name="carretoTitle">Cart</string>
     <string name="ferComanda">Purchase</string>
     <string name="chatbot">CHATBOT</string>
-    <string name="comanda_realitzada">Purchassed !!!</string>
+    <string name="comanda_realitzada">Purchased !!!</string>
     <string name="gracies_per_la_teva_compra">¡Thanks for Buying!</string>
     <string name="tornar_inici">Return home</string>
+    <string name="explora">Explore</string>
+    <string name="novetats">NEWS!</string>
+    <string name="navegacio">Navigation</string>
+    <string name="faq1">How will I get my Pokemon at home?</string>
+    <string name="faq2">How can I pay?</string>
+    <string name="faq3">How can I make a return?</string>
+    <string name="chatBotPlaceHolder">How can I help you?</string>
 </resources>

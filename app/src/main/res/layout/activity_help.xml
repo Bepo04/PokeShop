@@ -47,7 +47,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Com m'arribaran els Pokemons a casa?"
+                android:text="@string/faq1"
                 android:textSize="8pt"
                 android:textStyle="bold"
                 android:layout_marginTop="7dp"/>
@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Com puc pagar?"
+                android:text="@string/faq2"
                 android:textSize="8pt"
                 android:textStyle="bold"
                 android:layout_marginTop="7dp"/>
@@ -73,7 +73,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Puc fer devolucions?"
+                android:text="@string/faq3"
                 android:textSize="8pt"
                 android:textStyle="bold"
                 android:layout_marginTop="7dp"/>
@@ -144,7 +144,7 @@
                         <EditText
                             android:layout_width="220dp"
                             android:layout_height="50dp"
-                            android:text="En que et puc ajudar?" />
+                            android:text="@string/chatBotPlaceHolder" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </FrameLayout>
