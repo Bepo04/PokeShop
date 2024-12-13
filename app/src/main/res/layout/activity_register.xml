@@ -129,10 +129,8 @@
             android:textSize="20sp"
             android:text="@string/registrar"
             android:layout_gravity="center"
-            android:backgroundTint="@color/primary_day"/>
+            style="@style/EstilBoto"/>
     </LinearLayout>
-
-
 
     <fragment
         android:layout_width="match_parent"

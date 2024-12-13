@@ -144,7 +144,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_margin="15dp"
                 android:text="@string/explora"
-                android:backgroundTint="@color/primary_day"/>
+                style="@style/EstilBoto"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

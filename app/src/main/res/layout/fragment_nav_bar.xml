@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/inici"
-                android:backgroundTint="@color/primary_day"/>
+                style="@style/EstilBoto"/>
 
         </LinearLayout>
 
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/login"
-                android:backgroundTint="@color/primary_day"/>
+                style="@style/EstilBoto"/>
 
             <Button
                 android:id="@+id/cart"
@@ -62,7 +62,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:text="@string/cart"
-                android:backgroundTint="@color/primary_day"/>
+                style="@style/EstilBoto"/>
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

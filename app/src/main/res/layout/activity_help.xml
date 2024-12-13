@@ -144,6 +144,7 @@
                         <EditText
                             android:layout_width="220dp"
                             android:layout_height="50dp"
+                            android:textSize="6pt"
                             android:text="@string/chatBotPlaceHolder" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

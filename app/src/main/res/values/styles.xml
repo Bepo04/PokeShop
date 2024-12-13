@@ -13,4 +13,10 @@
         <item name="android:fontFamily">monospace</item>
     </style>
 
+    <style name="EstilBoto">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/OnPrimary</item>
+        <item name="android:titleMarginStart">5dp</item>
+        <item name="android:titleMarginEnd">5dp</item>
+    </style>
 </resources>

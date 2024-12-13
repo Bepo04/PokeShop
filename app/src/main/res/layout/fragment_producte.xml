@@ -44,8 +44,7 @@
                 app:layout_constraintStart_toEndOf="@+id/textPokemon"
                 app:layout_constraintBottom_toBottomOf="@+id/textPokemon"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:backgroundTint="@color/primary_day"
-                android:textColor="@color/secondary_day"
+                style="@style/EstilBoto"
                 android:text="@string/compra"
                 android:layout_marginEnd="15dp"/>
 

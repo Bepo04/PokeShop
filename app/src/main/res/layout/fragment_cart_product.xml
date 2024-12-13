@@ -47,8 +47,7 @@
                 android:id="@+id/afegeix"
                 app:layout_constraintStart_toEndOf="@+id/quantity"
                 app:layout_constraintBottom_toBottomOf="@+id/quantity"
-                android:backgroundTint="@color/primary_day"
-                android:textColor="@color/secondary_day"
+                style="@style/EstilBoto"
                 android:textSize="20sp"
                 android:textAlignment="center"
                 android:padding="10dp"
@@ -65,8 +64,7 @@
                 app:layout_constraintStart_toEndOf="@+id/afegeix"
                 app:layout_constraintBottom_toBottomOf="@+id/afegeix"
                 android:id="@+id/treu"
-                android:backgroundTint="@color/primary_day"
-                android:textColor="@color/secondary_day"
+                style="@style/EstilBoto"
                 android:text="-"/>
 
 

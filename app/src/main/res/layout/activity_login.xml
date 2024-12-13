@@ -75,7 +75,7 @@
             android:padding="10dp"
             android:textSize="20sp"
             android:text="@string/iniciar"
-            android:backgroundTint="@color/primary_day"/>
+            style="@style/EstilBoto"/>
 
         <Button
             android:id="@+id/registre"
@@ -85,7 +85,7 @@
             android:padding="10dp"
             android:textSize="20sp"
             android:text="@string/no_tens_compte"
-            android:backgroundTint="@color/primary_day"/>
+            style="@style/EstilBoto"/>
 
     </LinearLayout>
 

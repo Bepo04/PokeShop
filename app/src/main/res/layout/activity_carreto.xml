@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/product2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/primary_day"/>
+        style="@style/EstilBoto"/>
 
     <fragment
         android:id="@+id/bottom_nav"
